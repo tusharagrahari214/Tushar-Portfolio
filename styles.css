@@ -8,7 +8,8 @@
   /*Purple 260 - Red 355 - Blue 224 - Pink 340*/
   /* HSL color mode */
   --hue-color: 224;
-  --first-color: hsl(var(--hue-color), 89%, 60%);
+  /* --first-color: hsl(var(--hue-color), 56%, 12%); */
+  --first-color:#1b2a41;
   --second-color: hsl(var(--hue-color), 56%, 12%);
   /*===== Fuente y tipografia =====*/
   --body-font: 'Poppins', sans-serif;
@@ -204,7 +205,7 @@ img {
 }
 
 .home__title-color {
-  color: var(--first-color);
+  color: #971605;
 }
 
 .home__social {
@@ -446,7 +447,7 @@ img {
     column-gap: 1rem;
   }
   .work__container {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
     padding-top: 2rem;
   }*/
@@ -511,7 +512,7 @@ img {
     text-align: initial;
   }
   .work__container {
-    /*grid-template-columns: repeat(3, 1fr);*/
+    grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
 }
