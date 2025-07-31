@@ -2,234 +2,411 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Tushar</title>
+    <link rel="stylesheet" href="styles.css" />
 
-  <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
 
-  <!-- =====BOX ICONS===== -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/boxicons/2.1.4/css/boxicons.min.css" >
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  li
-  <title>Portfolio website complete</title>
+
 </head>
 
 <body>
-  <!--===== HEADER =====-->
-  <header class="l-header">
-    <nav class="nav bd-grid">
-      <div>
-        <a href="#" class="nav__logo">Tushar</a>
-      </div>
+    <!-- Particles Background -->
+    <div class="particles" id="particles"></div>
 
-      <div class="nav__menu" id="nav-menu">
-        <ul class="nav__list">
-          <li class="nav__item">
-            <a href="#home" class="nav__link active">Home</a>
-          </li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#skills" class="nav__link">Skills</a>
-          </li>
-          <li class="nav__item">
-            <a href="#work" class="nav__link">Projects</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-          <li class="nav__item">
-            <a href="https://drive.google.com/file/d/1yyE0YVe-dW82-oD9WVbvKC7JzCZ-nkdw/view" class="nav__link">Resume</a>
-          </li>
-        </ul>
-      </div>
+    <header>
+        <div class="container header-content">
+            <h1 class="logo animate">Tushar</h1>
+            <p class="tagline animate delay-1">Passionate Web Developer & UI/UX Designer</p>
 
-      <div class="nav__toggle" id="nav-toggle">
-        <i class="bx bx-menu"></i>
-      </div>
+            <div class="social-links-header animate delay-2">
+                <a href="https://github.com/tusharagrahari214/" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/tushar-agrahari214/" class="social-link"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://x.com/TUSHARAGRAHARI1" class="social-link"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container nav-container">
+            <div class="nav-logo">TUSHAR</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
     </nav>
-  </header>
 
-  <main class="l-main">
-    <!--===== HOME =====-->
-    <section class="home bd-grid" id="home">
-      <div class="home__data">
-        <h1 class="home__title">
-          Hi,<br />I'am <span class="home__title-color">Tushar</span><br />
-          Web Developer
-        </h1>
+    <main class="container">
+        <section id="about">
+            <h2 class="section-title animate">About Me</h2>
+            <div class="about-content">
+                <div class="about-image animate delay-1">
+                    <img src="img/perfil.png"
+                        alt="Professional portrait of a female web developer with a friendly smile, wearing glasses and a casual blouse, sitting at a modern desk with laptop and plants" />
+                </div>
+                <div class="about-text animate delay-2">
+                    <h3>Turning Ideas Into Innovative Digital Experiences</h3>
+                    <p><b>I'm Tushar</b>, I'm currently persuing my B.Tech in Computer Science Engineering from Ajay
+                        Kumar Garg
+                        Engineering College, Ghaziabad. I'm a passionate problem solver with a keen interest in web
+                        development. My
+                        goal is to become a Software Developer and work on exciting real world projects that make a
+                        difference. My
+                        strength lies in logical thinking, clean code, and continuous learning. I'm always eager to
+                        take on new challenges that push me to grow and innovate.
+                    </p>
 
-        <a href="mailto:tusharagrahari10@gmail.com" class="button">Contact</a>
-      </div>
+                    <div class="skills-list">
+                        <span class="skill-tag">HTML:5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-      <div class="home__social">
-        <a href="https://www.linkedin.com/in/tushar-agrahari214/" target="_blank" class="home__social-icon"><i class="bx bxl-linkedin"></i></a>
-        <a href="https://x.com/TUSHARAGRAHARI1" target="_blank" class="home__social-icon"><i class="bx bxl-twitter"></i></a>
-        <a href="https://github.com/tusharagrahari214" target="_blank" class="home__social-icon"><i class="bx bxl-github"></i></a>
-      </div>
+        <section id="skills">
+            <h2 class="section-title animate">My Skills</h2>
 
-      <div class="home__img">
-        <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
-          xmlns:xlink="http://www.w3.org/1999/xlink">
-          <mask id="mask0" mask-type="alpha">
-            <path
-              d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
-          </mask>
-          <g mask="url(#mask0)">
-            <path
-              d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
-            <image class="home__blob-img" x="50" y="70" href="img/perfil.png" />
-          </g>
-        </svg>
-      </div>
-    </section>
+            <div class="skill-content">
+                <p class="animate delay-1">A collection of my technical skills and expertise honed through various
+                    projects and experiences <br> My skills include:</p>
+            </div>
 
-    <!--===== ABOUT =====-->
-    <section class="about section" id="about">
-      <h2 class="section-title">About</h2>
 
-      <div class="about__container bd-grid">
-        <div class="about__img">
-          <img src="img/perfil.png" alt="" />
+            <div class="skills-container">
+
+                <!------------------ Languages --------------------->
+
+                <div class="skill-card animate delay-3">
+                    <i class="devicon-c-plain skill-icon"></i>
+                    <h3>C Language</h3>
+                    <p>Procedural logic, memory handling, system-level code</p>
+                </div>
+                <div class="skill-card animate delay-3">
+                    <i class="devicon-cplusplus-plain skill-icon"></i>
+                    <h3>C++</h3>
+                    <p>OOP, STL, performance-centric design</p>
+                </div>
+                <div class="skill-card animate delay-3">
+                    <i class="devicon-python-plain skill-icon"></i>
+                    <h3>Python</h3>
+                    <p>Scripting, data handling, rich libraries</p>
+                </div>
+
+
+                <!------------------ Frontend --------------------->
+
+
+                <div class="skill-card animate">
+                    <i class="fab fa-html5 skill-icon"></i>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup, accessibility, modern APIs</p>
+                </div>
+                <div class="skill-card animate delay-1">
+                    <i class="fab fa-css3-alt skill-icon"></i>
+                    <h3>CSS3</h3>
+                    <p>Responsive design, animations, preprocessors</p>
+                </div>
+                <div class="skill-card animate delay-1">
+                    <i class="fab fa-js skill-icon"></i>
+                    <h3>JavaScript</h3>
+                    <p>ES6+, functional programming, design patterns</p>
+                </div>
+                <div class="skill-card animate delay-2">
+                    <i class="fab fa-react skill-icon"></i>
+                    <h3>React</h3>
+                    <p>Hooks, Context API, performance optimization</p>
+                </div>
+                <div class="skill-card animate delay-2">
+                    <i class="fas fa-paint-brush skill-icon"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Wireframing, prototyping, user research</p>
+                </div>
+                <div class="skill-card animate delay-3">
+                    <i class="fas fa-mobile-alt skill-icon"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Media queries, fluid layouts, mobile-first</p>
+                </div>
+
+
+                <!------------------ Backend --------------------->
+
+
+                <div class="skill-card animate delay-3">
+                    <i class="devicon-nodejs-plain skill-icon"></i>
+                    <h3>Node.js</h3>
+                    <p>REST APIs, Event-driven, authentication</p>
+                </div>
+
+                <div class="skill-card animate delay-3">
+                    <i class="devicon-mongodb-plain skill-icon"></i>
+                    <h3>MongoDB</h3>
+                    <p>NoSQL, JSON-like documents, flexible schema</p>
+                </div>
+                <div class="skill-card animate delay-3">
+                    <i class="devicon-express-original skill-icon"></i>
+                    <h3>Express JS</h3>
+                    <p> Routing, middleware, REST API support</p>
+                </div>
+                <div class="skill-card animate delay-3">
+                    <i class="devicon-mysql-plain skill-icon"></i>
+                    <h3>MySQL</h3>
+                    <p>SQL queries, relational data, normalization</p>
+                </div>
+
+                <!----------------------Tools----------------- -->
+
+
+                <div class="skill-card animate delay-3">
+                    <i class="devicon-vscode-plain skill-icon"></i>
+                    <h3>VS code</h3>
+                    <p>IntelliSense, extensions, debugging tools</p>
+                </div>
+                <div class="skill-card animate delay-3">
+                    <i class="fab fa-git-alt skill-icon"></i>
+                    <h3>Git</h3>
+                    <p>Version control, workflows, collaboration</p>
+                </div>
+                <div class="skill-card animate delay-3">
+                    <i class="devicon-github-original skill-icon"></i>
+                    <h3>GitHub</h3>
+                    <p>Repository hosting, pull requests, CI/CD</p>
+                </div>
+
+                <div class="skill-card animate delay-3">
+                    <i class="fas fa-code skill-icon"></i>
+                    <h3>EJS</h3>
+                    <p> Template rendering, server-side views, logic in HTML</p>
+                </div>
+                <div class="skill-card animate delay-3">
+                    <i class="fas fa-database skill-icon"></i>
+                    <h3>DBMS</h3>
+                    <p> Data modeling, indexing, CRUD operations</p>
+                </div>
+                <div class="skill-card animate delay-3">
+                    <img src="img/post.png" alt="Postman" class="skill-icon" style="width: 60px;">
+                    <!-- <img src="https://cdn.worldvectorlogo.com/logos/postman.svg" alt="Postman" class="skill-icon" style="width: 60px;> -->
+                    <h3>Postman</h3>
+                    <p>API requests, testing, automation workflows</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title animate">Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card animate">
+                    <div class="project-image">
+                        <img src="img/realestate.jpg" alt="" />
+                        <span class="project-tag">#RealEstateApp</span>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Real Estate Management System</h3>
+                        <p class="project-description">A Dynamic Web App for Real Estate Management System of offices
+                            and agents with role-based access control, built using Node.js, Express, EJS, CSS, and MySQL. Enables secure
+                            property management and user-specific functionality.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-eye"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/tusharagrahari214/Real-Estate-Project.git" class="project-link">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate delay-1">
+                    <div class="project-image">
+                        <img src="img/backimg.jpg" alt="" />
+                        <span class="project-tag">#ConsignmentTracking</span>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Rapid-Dispatch-Express</h3>
+                        <p class="project-description">A web-based system to streamline consignment tracking, transport
+                            charge calculation, and truck assignment for a transport company. Built with secure login
+                            and developed using the AGILE methodology.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-eye"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/tusharagrahari214/Rapid-Dispatch-Express.git"
+                                class="project-link">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate delay-2">
+                    <div class="project-image">
+                        <img src="img/prtflio.png" alt="" />
+                        <span class="project-tag">#ResponsiveDesign</span>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Personal Portfolio Website</h3>
+                        <p class="project-description">A responsive and interactive portfolio website built to showcase
+                            skills, projects, and experience. Features clean UI/UX design, smooth navigation, and modern
+                            web technologies for an engaging user experience.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-eye"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/tusharagrahari214/Tushar-Portfolio.git" class="project-link">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate delay-2">
+                    <div class="project-image">
+                        <img src="img/mlcoe.png" alt="" />
+                        <span class="project-tag">#DataAnalysis</span>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">EDA on Student Performance Dataset</h3>
+                        <p class="project-description">Conducted EDA to uncover insights and trends from a real-world
+                            dataset. Used Pandas for data wrangling and Matplotlib/Seaborn for visualization, with
+                            well-documented code and clear visual outputs to demonstrate analytical skills.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-eye"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/tusharagrahari214/MLCOE-TASK-1.git" class="project-link">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card animate delay-2">
+                    <div class="project-image">
+                        <img src="img/ludo.png" alt="" />
+                        <span class="project-tag">#LudoGame</span>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Ludo Game Web App</h3>
+                        <p class="project-description">A browser-based Ludo game built using HTML5, CSS3, and
+                            JavaScript. Features interactive gameplay, custom styling, and dynamic movement logic to
+                            simulate the traditional board game experience in a web environment.</p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-eye"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/tusharagrahari214/Ludo.git" class="project-link">
+                                <i class="fab fa-github"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="resume">
+            <h2 class="section-title animate">My Resume</h2>
+            <div class="resume-content">
+                <p class="animate delay-1">Want to know more about my professional journey? Download my resume to see my
+                    complete work experience, education, and achievements.</p>
+                <a href="https://drive.google.com/file/d/1yyE0YVe-dW82-oD9WVbvKC7JzCZ-nkdw/view"
+                    class="download-btn animate delay-2">
+                    <i class="fas fa-download"></i> Download Resume (PDF)
+                </a>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2 class="section-title animate">Let's Connect</h2>
+            <div class="contact-container">
+                <div class="contact-info animate delay-1">
+                    <h3>Get in Touch</h3>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email</h4>
+                            <a href="mailto:tusharagrahari10@gmail.com">tusharagrahari10@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Phone</h4>
+                            <a href="tel:+91 9794232900">+91 9794232900</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Location</h4>
+                            <p>Vill + Post - Hainsar Bazar, Sant Kabir Nagar, 272165, U.P, India</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form animate delay-2">
+                    <h3>Send Me a Message</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" class="form-control" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" class="form-control" required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#about" class="footer-link">About</a>
+                <a href="#skills" class="footer-link">Skills</a>
+                <a href="#projects" class="footer-link">Projects</a>
+                <a href="#resume" class="footer-link">Resume</a>
+                <a href="#contact" class="footer-link">Contact</a>
+            </div>
+            <div class="social-links-footer">
+                <a href="https://github.com/tusharagrahari214/" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/tushar-agrahari214/" class="social-link"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://x.com/TUSHARAGRAHARI1" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/_tushar_agrahari_214/" class="social-link"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+            <p class="copyright">© 2023 Tushar. All rights reserved.</p>
         </div>
+    </footer>
 
-        <div>
-          <h2 class="about__subtitle">I'am Tushar</h2>
-          <p class="about__text">
-            Hello You!! <br>
-            I'm Tushar, I'm currently persuing my B.Tech in Computer Science Engineering from Ajay Kumar Garg
-            Engineering College, Ghaziabad. I'm a passionate problem solver with a keen interest in web development. My
-            goal is to become a Software Developer and work on exciting real world projects that make a difference. My
-            strength lies in logical thinking, clean code, and continuous learning. I'm always eager to
-            take on new challenges that push me to grow and innovate.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!--===== SKILLS =====-->
-    <section class="skills section" id="skills">
-      <h2 class="section-title">Skills</h2>
-
-      <div class="skills__container bd-grid">
-        <div>
-          <h2 class="skills__subtitle">Profesional Skills</h2>
-          <p class="skills__text">
-            I'm Tushar, a passionate developer with strong command over C, C++, and Python. I specialize in frontend
-            development using HTML, CSS, and JavaScript, and I'm currently working on backend technologies like Node.js,
-            Express.js, MongoDB, and EJS. I have solid knowledge of DBMS, MySQL, and Operating Systems, along with
-            strong problem-solving skills. I'm focused on becoming a well-rounded full-stack developer.
-          </p>
-          <div class="skills__data">
-            <div class="skills__names">
-              <i class="bx bxl-html5 skills__icon"></i>
-              <span class="skills__name">HTML5</span>
-            </div>
-            <div class="skills__bar skills__html"></div>
-            <div>
-              <span class="skills__percentage">95%</span>
-            </div>
-          </div>
-          <div class="skills__data">
-            <div class="skills__names">
-              <i class="bx bxl-css3 skills__icon"></i>
-              <span class="skills__name">CSS3</span>
-            </div>
-            <div class="skills__bar skills__css"></div>
-            <div>
-              <span class="skills__percentage">85%</span>
-            </div>
-          </div>
-          <div class="skills__data">
-            <div class="skills__names">
-              <i class="bx bxl-javascript skills__icon"></i>
-              <span class="skills__name">JAVASCRIPT</span>
-            </div>
-            <div class="skills__bar skills__js"></div>
-            <div>
-              <span class="skills__percentage">65%</span>
-            </div>
-          </div>
-          <div class="skills__data">
-            <div class="skills__names">
-              <i class="fab fa-node-js skills__icon"></i>
-              <span class="skills__name">NODE.JS</span>
-            </div>
-            <div class="skills__bar skills__nodejs"></div>
-            <div>
-              <span class="skills__percentage">45%</span>
-            </div>
-          </div>
-
-        </div>
-
-        <div>
-          <img src="img/work3.jpg" alt="" class="skills__img" />
-        </div>
-      </div>
-    </section>
-
-    <!--===== PROJECTS =====-->
-    <section class="work section" id="work">
-      <h2 class="section-title">Projects</h2>
-
-      <div class="work__container bd-grid">
-
-        
-        <a href="https://github.com/tusharagrahari214/Real-Estate-Project.git" target="_blank" class="work__img">
-          <img src="img/work1.jpg" alt="" />
-        </a>
-        <a href="https://github.com/tusharagrahari214/Rapid-Dispatch-Express.git" target="_blank" class="work__img">
-          <img src="img/work2.jpg" alt="" />
-        </a>
-        <a href="https://github.com/tusharagrahari214/Tushar-Portfolio.git" target="_blank" class="work__img">
-          <img src="img/work3.jpg" alt="" />
-        </a>
-        <a href="https://github.com/tusharagrahari214/MLCOE-TASK-1.git" target="_blank" class="work__img">
-          <img src="img/work4.jpg" alt="" />
-        </a>
-        <a href="https://github.com/tusharagrahari214/Ludo.git" target="_blank" class="work__img">
-          <img src="img/work5.jpg" alt="" />
-        </a>
-        <a href="" target="_blank" class="work__img">
-          <img src="img/work6.jpg" alt="" />
-        </a>
-      </div>
-    </section>
-
-    <!--===== CONTACT =====-->
-    <section class="contact section" id="contact">
-      <h2 class="section-title">Contact</h2>
-
-      <div class="contact__container bd-grid">
-        <form action="mailto:tusharagrahari10@gmail.com" method="post" enctype="text/plain" class="contact__form">
-          <input type="text" placeholder="Name" class="contact__input" />
-          <input type="mail" placeholder="Email" class="contact__input" />
-          <textarea name="" id="" cols="0" rows="8" class="contact__input"></textarea>
-          <input type="button" value="Send" class="contact__button button" />
-        </form>
-      </div>
-    </section>
-  </main>
-
-  <!--===== FOOTER =====-->
-  <footer class="footer">
-    <p class="footer__title">Tushar</p>
-    <div class="footer__social">
-      <a href="https://www.linkedin.com/in/tushar-agrahari214/" target="_blank" class="footer__icon"><i class="bx bxl-linkedin"></i></a>
-      <a href="https://www.instagram.com/_tushar_agrahari_214/" target="_blank" class="footer__icon"><i class="bx bxl-instagram"></i></a>
-      <a href="https://x.com/TUSHARAGRAHARI1" target="_blank" class="footer__icon"><i class="bx bxl-twitter"></i></a>
-      <a href="https://github.com/tusharagrahari214" target="_blank" class="footer__icon"><i class="bx bxl-github"></i></a>
-    </div>
-    <p class="footer__copy">&#169; All rigths reserved</p>
-  </footer>
-
-  <!--===== SCROLL REVEAL =====-->
-  <script src="https://unpkg.com/scrollreveal"></script>
-
-  <!--===== MAIN JS =====-->
-  <script src="main.js"></script>
+    <script src="main.js"></script>
 </body>
 
 </html>
