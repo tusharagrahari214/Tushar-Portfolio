@@ -438,6 +438,9 @@ section {
     transition: var(--transition);
 }
 
+.desktop-demo { display: inline-block; }
+.mobile-demo { display: none; }
+
 .project-link:hover {
     color: var(--accent-color);
 }
@@ -802,4 +805,7 @@ footer {
         margin-top: 0;
         padding-top: 4rem;
     }
+
+    .desktop-demo { display: none; }
+    .mobile-demo { display: inline-block; }
 }
