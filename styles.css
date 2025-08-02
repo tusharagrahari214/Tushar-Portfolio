@@ -794,3 +794,12 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+@media (max-width: 600px) {
+    #projects {
+        /* Softer clip-path so heading is visible */
+        clip-path: polygon(0 3%, 100% 0, 100% 97%, 0% 100%);
+        margin-top: 0;
+        padding-top: 4rem;
+    }
+}
