@@ -10,7 +10,7 @@ A polished personal portfolio website showcasing my projects, technical skills, 
 
 I am a Computer Science engineering graduate from **Ajay Kumar Garg Engineering College, Ghaziabad** passionate about **Data Analytics, Business Intelligence, and Software Development**. 
 
-Skilled in *Python, SQL, Excel, Power BI, alongside full-stack technologies including **Node.js, Express.js, MongoDB, JavaScript, and EJS*, I enjoy building data-driven solutions and developing applications that address real-world problems.
+Skilled in *Python, SQL, Excel, Power BI*, alongside full-stack technologies including *Node.js, Express.js, MongoDB, JavaScript, and EJS*, I enjoy building data-driven solutions and developing applications that address real-world problems.
 
 As a team leader and co-author of an *IEEE Xplore publication* associated with a *Best Paper Award* for my AgriCrop Health Monitoring reseach work, I have gained hands-on experience in machine learning and data classification. I am eager to apply my analytical and problem-solving skills to create meaningful and impactful solutions.
 
