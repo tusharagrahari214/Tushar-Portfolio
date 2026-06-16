@@ -43,12 +43,12 @@ As a team leader and co-author of an *IEEE Xplore publication* associated with a
 
 ## 📈 Featured Projects
 
-1. **Telecom Customer Churn Prediction** (Data Science / Python & Streamlit)
-2. **E-Commerce Sales Analytics** (BI & Data Analysis / Python, SQL, Streamlit)
-3. **AgriCrop Health Monitoring** (Machine Learning / Python & IEEE Publication)
-4. **Real Estate Platform** (Full Stack / Mongoose, Express, Node, Render)
-5. **Rapid-Dispatch-Express** (Logistics Management / Node.js, Express, MongoDB)
-6. **Personal Portfolio Website** (Front End / HTML, CSS, JavaScript, Netlify)
+1. **Telecom Customer Churn Prediction** 
+2. **E-Commerce Sales Analytics** 
+3. **AgriCrop Health Monitoring** (*IEEE Publication*)
+4. **Real Estate Platform** 
+5. **Rapid-Dispatch-Express**
+6. **Personal Portfolio Website** 
 
 ---
 
