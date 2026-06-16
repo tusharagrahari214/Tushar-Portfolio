@@ -1,0 +1,987 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Tushar - Aspiring Data Analyst & Software Developer. Transforming data into actionable insights and building intelligent full-stack solutions.">
+    <meta name="keywords"
+        content="Tushar, Data Analyst, Software Developer, Portfolio, Python, SQL, Power BI, Machine Learning, Node.js, MongoDB">
+    <meta name="author" content="Tushar">
+    <title>Tushar | Aspiring Data Analyst & Software Developer Portfolio</title>
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="img/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Tushar | Aspiring Data Analyst & Software Developer Portfolio">
+    <meta property="og:description"
+        content="Transforming data into actionable insights and building intelligent full-stack solutions.">
+    <meta property="og:image" content="img/TUSHAR PIC.png">
+    <meta property="og:url" content="https://tusharagrahari.github.io/">
+    <meta property="og:site_name" content="Tushar Portfolio">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Tushar | Aspiring Data Analyst & Software Developer Portfolio">
+    <meta name="twitter:description"
+        content="Transforming data into actionable insights and building intelligent full-stack solutions.">
+    <meta name="twitter:image" content="img/TUSHAR PIC.png">
+
+    <!-- CSS Links -->
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="loader" class="loader-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Scroll Progress Indicator -->
+    <div class="scroll-progress-container">
+        <div class="scroll-progress" id="scrollBar"></div>
+    </div>
+
+    <!-- Background Decoration Particles/Shapes -->
+    <div class="background-decorations">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+    </div>
+
+    <!-- Header Navigation -->
+    <nav id="navbar" class="navbar">
+        <div class="container nav-container">
+            <div class="nav-brand">
+                <a href="#home" class="logo-link">
+                    <span class="logo-text">Tushar</span>
+                </a>
+            </div>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fas fa-user"></i> About</a></li>
+                <li><a href="#skills"><i class="fas fa-tools"></i> Skills</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> Projects</a></li>
+                <li><a href="#experience"><i class="fas fa-briefcase"></i> Experience</a></li>
+                <li><a href="#certifications"><i class="fas fa-certificate"></i> Certifications</a></li>
+                <li><a href="#publications"><i class="fas fa-book-open"></i> Publications</a></li>
+                <li><a href="#achievements"><i class="fas fa-trophy"></i> Achievements</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <!-- Dark/Light Theme Toggle -->
+                <button id="theme-toggle" class="theme-toggle-btn" aria-label="Toggle dark mode">
+                    <i class="fas fa-moon moon-icon"></i>
+                    <i class="fas fa-sun sun-icon"></i>
+                </button>
+
+                <!-- Mobile Menu Button -->
+                <div class="menu-toggle" id="menu-toggle" aria-controls="nav-links" aria-expanded="false">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero-section">
+            <div class="container hero-container">
+                <div class="hero-content text-center">
+                    <h5 class="hero-welcome animate">Welcome to my portfolio</h5>
+                    <h1 class="hero-title animate delay-1">Hi, I'm <span class="highlight-text">Tushar</span></h1>
+                    <h2 class="hero-subtitle animate delay-2">
+                        <span id="typed-text"></span><span class="typed-cursor">|</span>
+                    </h2>
+                    <p class="hero-description animate delay-3">
+                        Transforming Data into Actionable Insights Through Analytics and Intelligent Solutions.
+                    </p>
+
+                    <div class="hero-buttons animate delay-4">
+                        <a href="./assets/Tushar_DataAnalyst_Resume.pdf" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-primary glass-btn">
+                            <i class="fas fa-external-link-alt"></i> View Resume
+                        </a>
+                        <a href="./assets/Tushar_DataAnalyst_Resume.pdf" download class="btn btn-secondary glass-btn">
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                        <a href="#contact" class="btn btn-outline glass-btn">
+                            <i class="fas fa-paper-plane"></i> Contact Me
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="scroll-indicator-wrapper animate delay-5">
+                <a href="#about" class="scroll-down-arrow">
+                    <span>Explore</span>
+                    <i class="fas fa-chevron-down"></i>
+                </a>
+            </div>
+        </section>
+
+        <!-- Statistics Section -->
+        <section id="statistics" class="stats-section">
+            <div class="container">
+                <div class="stats-grid">
+                    <div class="stat-card glass-card scroll-reveal">
+                        <div class="stat-icon-box">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3 class="stat-number" data-target="3">0</h3>
+                            <p class="stat-label">Analytics Projects</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card glass-card scroll-reveal delay-1">
+                        <div class="stat-icon-box">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3 class="stat-number" data-target="2">0</h3>
+                            <p class="stat-label">Full Stack Projects</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card glass-card scroll-reveal delay-2">
+                        <div class="stat-icon-box">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3 class="stat-number" data-target="1">0</h3>
+                            <p class="stat-label">IEEE Publication</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card glass-card scroll-reveal delay-3">
+                        <div class="stat-icon-box">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3 class="stat-number" data-target="4">0</h3>
+                            <p class="stat-label">Certifications</p>
+                        </div>
+                    </div>
+
+                    <div class="stat-card glass-card scroll-reveal delay-4">
+                        <div class="stat-icon-box">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3 class="stat-number" data-target="100">0</h3>
+                            <p class="stat-label">SQL Problems Solved</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="section-header text-center scroll-reveal">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-image-side scroll-reveal">
+                        <div class="image-wrapper glass-card">
+                            <img src="img/TUSHAR PROFF. IMAGE.jpeg" alt="Tushar Profile Picture" class="profile-pic"
+                                onerror="this.src='img/profile.png'">
+                        </div>
+                    </div>
+
+                    <div class="about-text-side scroll-reveal delay-1">
+                        <h3 class="about-intro-title">Who is <span class="highlight-text">Tushar</span>?</h3>
+                        <p class="about-description">
+                            I am a Computer Science engineering graduate from **Ajay Kumar Garg Engineering College,
+                            Ghaziabad** with a strong passion for **Data Analytics, Business Intelligence, and Software
+                            Development**.
+                        </p>
+                        <p class="about-description">
+                            Equipped with deep analytical expertise in Python, SQL, Excel, and Power BI alongside
+                            full-stack capabilities in Node.js, Express.js, MongoDB, JavaScript, and EJS, I specialize
+                            in transforming raw data into actionable insights and designing end-to-end intelligent
+                            applications.
+                        </p>
+                        <p class="about-description">
+                            As a published researcher in **IEEE Xplore** and co-author of a best paper, I possess a
+                            rigorous foundation in machine learning and data classification. I am eager to apply my
+                            analytical capabilities and engineering background to solve complex real-world business
+                            challenges.
+                        </p>
+
+                        <div class="education-timeline-box">
+                            <h4 class="timeline-box-title"><i class="fas fa-graduation-cap"></i> Education</h4>
+                            <div class="education-card glass-card">
+                                <div class="edu-header">
+                                    <h5>Bachelor of Technology in Computer Science and Engineering</h5>
+                                    <span class="badge badge-primary">2022 - 2026</span>
+                                </div>
+                                <p class="edu-college">Ajay Kumar Garg Engineering College, Ghaziabad, India</p>
+                                <p class="edu-status"><i class="far fa-calendar-alt"></i> Expected Graduation: May 2026
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header text-center scroll-reveal">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="skills-grid">
+                    <!-- Programming Languages -->
+                    <div class="skills-category-card glass-card scroll-reveal">
+                        <div class="category-header">
+                            <i class="fas fa-code"></i>
+                            <h3>Languages</h3>
+                        </div>
+                        <div class="skills-list-grid">
+                            <div class="skill-badge"><i class="devicon-python-plain colored"></i> Python</div>
+                            <div class="skill-badge"><i class="fas fa-database" style="color: #00758f;"></i> SQL</div>
+                            <div class="skill-badge"><i class="devicon-javascript-plain colored"></i> JavaScript</div>
+                            <div class="skill-badge"><i class="devicon-cplusplus-plain colored"></i> C++</div>
+                            <div class="skill-badge"><i class="devicon-c-plain colored"></i> C</div>
+                        </div>
+                    </div>
+
+                    <!-- Data Analytics -->
+                    <div class="skills-category-card glass-card scroll-reveal delay-1">
+                        <div class="category-header">
+                            <i class="fas fa-chart-pie"></i>
+                            <h3>Data Analytics</h3>
+                        </div>
+                        <div class="skills-list-grid">
+                            <div class="skill-badge"><i class="devicon-pandas-plain colored"></i> Pandas</div>
+                            <div class="skill-badge"><i class="devicon-numpy-plain colored"></i> NumPy</div>
+                            <div class="skill-badge">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
+                                    style="vertical-align: middle; margin-right: 4px;">
+                                    <path fill="#1f3460"
+                                        d="M19 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2zM9 17H7v-7h2zm4 0h-2V7h2zm4 0h-2v-4h2z" />
+                                </svg> Matplotlib
+                            </div>
+                            <div class="skill-badge">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
+                                    style="vertical-align: middle; margin-right: 4px;">
+                                    <path fill="#e94560"
+                                        d="M4 19h16v2H4zm0-4h3.5v2H4zm4.5-4h3.5v6H8.5zm4.5-4h3.5v10H13zm4.5 4H21v6h-3.5z" />
+                                </svg> Seaborn
+                            </div>
+                            <div class="skill-badge"><i class="devicon-scikitlearn-plain colored"></i> Scikit Learn
+                            </div>
+                            <div class="skill-badge">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
+                                    style="vertical-align: middle; margin-right: 4px; fill: #e94560;">
+                                    <path
+                                        d="M11 2v4H8v3h3v4h2v-4h3V9h-3V6h-2V2zm-7 8v4h3v3h-3v4h2v-4h3v-3H9v-4H4zm14 0v4h3v3h-3v4h2v-4h3v-3h-3v-4h-2z" />
+                                </svg> XGBoost
+                            </div>
+                            <div class="skill-badge"><i class="fas fa-brain" style="color: #e94560;"></i> Machine
+                                Learning</div>
+                            <div class="skill-badge"><i class="fas fa-cogs" style="color: #0f3460;"></i> Feature
+                                Engineering</div>
+                            <div class="skill-badge"><i class="fas fa-search-plus" style="color: #e94560;"></i> EDA
+                            </div>
+                            <div class="skill-badge"><i class="fas fa-calculator" style="color: #0f3460;"></i>
+                                Statistical Analysis</div>
+                        </div>
+                    </div>
+
+                    <!-- Business Intelligence -->
+                    <div class="skills-category-card glass-card scroll-reveal delay-2">
+                        <div class="category-header">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <h3>Business Intelligence</h3>
+                        </div>
+                        <div class="skills-list-grid">
+                            <div class="skill-badge">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="16" height="16"
+                                    style="vertical-align: middle; margin-right: 4px;">
+                                    <path fill="#E6A100" d="M112 368h80v144h-80z" />
+                                    <path fill="#F2C811" d="M216 192h80v320h-80z" />
+                                    <path fill="#FFF" fill-opacity=".3" d="M216 192h40v320h-40zM112 368h40v144h-40z" />
+                                    <path fill="#F2B200" d="M320 0h80v512h-80z" />
+                                    <path fill="#FFF" fill-opacity=".3" d="M320 0h40v512h-40z" />
+                                </svg> Power BI
+                            </div>
+                            <div class="skill-badge"><i class="fas fa-calculator" style="color: #e94560;"></i> DAX</div>
+                            <div class="skill-badge">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="16" height="16"
+                                    style="vertical-align: middle; margin-right: 4px;">
+                                    <path fill="#107C41" d="M288 32h160a32 32 0 0 1 32 32v384a32 32 0 0 1-32 32H288z" />
+                                    <path fill="#1F9A55" d="M288 160h192v192H288z" />
+                                    <path fill="#0F6734" d="M288 288h192v192H288z" />
+                                    <path fill="#107C41" d="M32 96h224v320H32z" />
+                                    <path fill="#FFF"
+                                        d="M80 160h48l24 48 24-48h48l-40 72 40 72h-48l-24-48-24 48H80l40-72z" />
+                                </svg> Excel
+                            </div>
+                            <div class="skill-badge"><i class="fas fa-chart-line" style="color: #0f3460;"></i> Dashboard
+                                Design</div>
+                            <div class="skill-badge"><i class="fas fa-network-wired" style="color: #e94560;"></i> ETL
+                                Pipelines</div>
+                        </div>
+                    </div>
+
+                    <!-- Databases -->
+                    <div class="skills-category-card glass-card scroll-reveal">
+                        <div class="category-header">
+                            <i class="fas fa-server"></i>
+                            <h3>Databases</h3>
+                        </div>
+                        <div class="skills-list-grid">
+                            <div class="skill-badge"><i class="devicon-mysql-plain colored"></i> MySQL</div>
+                            <div class="skill-badge"><i class="devicon-microsoftsqlserver-plain colored"></i> MS SQL
+                                Server</div>
+                            <div class="skill-badge"><i class="devicon-mongodb-plain colored"></i> MongoDB</div>
+                        </div>
+                    </div>
+
+                    <!-- Backend Development -->
+                    <div class="skills-category-card glass-card scroll-reveal delay-1">
+                        <div class="category-header">
+                            <i class="fas fa-cubes"></i>
+                            <h3>Backend Dev</h3>
+                        </div>
+                        <div class="skills-list-grid">
+                            <div class="skill-badge"><i class="devicon-nodejs-plain colored"></i> Node.js</div>
+                            <div class="skill-badge"><i class="devicon-express-original"></i> Express.js</div>
+                            <div class="skill-badge"><i class="fas fa-link" style="color: #0f3460;"></i> REST APIs</div>
+                            <div class="skill-badge"><i class="fas fa-code-branch" style="color: #e94560;"></i> EJS
+                                Templates</div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Platforms -->
+                    <div class="skills-category-card glass-card scroll-reveal delay-2">
+                        <div class="category-header">
+                            <i class="fas fa-wrench"></i>
+                            <h3>Tools & Platforms</h3>
+                        </div>
+                        <div class="skills-list-grid">
+                            <div class="skill-badge"><i class="devicon-git-plain colored"></i> Git</div>
+                            <div class="skill-badge"><i class="devicon-github-original"></i> GitHub</div>
+                            <div class="skill-badge"><i class="devicon-vscode-plain colored"></i> VS Code</div>
+                            <div class="skill-badge"><i class="devicon-jupyter-plain colored"></i> Jupyter Notebook
+                            </div>
+                            <div class="skill-badge"><i class="fas fa-infinity" style="color: #f57f17;"></i> Google
+                                Colab</div>
+                            <div class="skill-badge"><i class="devicon-postman-plain colored"></i> Postman</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header text-center scroll-reveal">
+                    <h2 class="section-title">Featured Projects</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="projects-grid">
+
+                    <!-- Project 1: Telecom Customer Churn -->
+                    <div class="project-card glass-card scroll-reveal delay-1">
+                        <div class="project-img-container">
+                            <img src="img/telecom.png" alt="Telecom Churn Prediction"
+                                onerror="this.src='img/backimg.jpg'">
+                            <span class="project-category">Data Science</span>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-card-title">Telecom Customer Churn Prediction</h3>
+                            <div class="project-tech-stack">
+                                <span>Python</span>
+                                <span>SQL</span>
+                                <span>Pandas</span>
+                                <span>Scikit-Learn</span>
+                                <span>Streamlit</span>
+                            </div>
+                            <p class="project-card-description">
+                                Built an end-to-end ML pipeline in Python to predict customer churn. Resolved class
+                                imbalance using SMOTE, optimized hyperparameters via GridSearchCV, and achieved 77%
+                                accuracy and 0.81 ROC AUC. Deployed with Streamlit.
+                            </p>
+                            <div class="project-action-links">
+                                <a href="https://github.com/tusharagrahari214" target="_blank" rel="noopener noreferrer"
+                                    class="btn-card-action">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                                <a href="https://telecom-churn-prediction-tushar214.streamlit.app/" target="_blank"
+                                    rel="noopener noreferrer" class="btn-card-action primary">
+                                    <i class="fas fa-eye"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2: E-Commerce Sales Analytics -->
+                    <div class="project-card glass-card scroll-reveal delay-2">
+                        <div class="project-img-container">
+                            <img src="img/e_commerce.png" alt="E-Commerce Sales Analytics"
+                                onerror="this.src='img/backimg.jpg'">
+                            <span class="project-category">Business Intelligence</span>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-card-title">E-Commerce Sales Analytics</h3>
+                            <div class="project-tech-stack">
+                                <span>SQL</span>
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Matplotlib</span>
+                                <span>Seaborn</span>
+                            </div>
+                            <p class="project-card-description">
+                                Processed and analyzed 100K+ transaction database using SQL & Python. Performed Cohort
+                                Analysis, RFM Segmentation, Customer Lifetime Value (CLV) calculations, and created 20+
+                                rich visualizations to drive business decisions.
+                            </p>
+                            <div class="project-action-links">
+                                <a href="https://github.com/tusharagrahari214" target="_blank" rel="noopener noreferrer"
+                                    class="btn-card-action">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                                <a href="https://tushar-e-commerce-sales-analytics.streamlit.app/" target="_blank"
+                                    rel="noopener noreferrer" class="btn-card-action primary">
+                                    <i class="fas fa-eye"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 3: AgriCrop Monitoring -->
+                    <div class="project-card glass-card scroll-reveal">
+                        <div class="project-img-container">
+                            <img src="img/mlcoe.png" alt="AgriCrop Health Monitoring"
+                                onerror="this.src='img/backimg.jpg'">
+                            <span class="project-category">ML & Analytics</span>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-card-title">AgriCrop Health Monitoring</h3>
+                            <div class="project-tech-stack">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>NumPy</span>
+                                <span>XGBoost</span>
+                                <span>Scikit-Learn</span>
+                            </div>
+                            <p class="project-card-description">
+                                Machine learning based crop recommendation system using soil nutrient and weather data.
+                                Engineered features, conducted exploratory data analysis, and utilized XGBoost for
+                                multiclass classification across 15+ crop types. Co-authored IEEE Xplore publication.
+                            </p>
+                            <div class="project-action-links">
+                                <a href="https://github.com/tusharagrahari214/MLCOE-TASK-1.git" target="_blank"
+                                    rel="noopener noreferrer" class="btn-card-action">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                                <a href="https://ieeexplore.ieee.org/document/11468657" target="_blank"
+                                    rel="noopener noreferrer" class="btn-card-action primary">
+                                    <i class="fas fa-external-link-alt"></i> IEEE Publication
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 4: Real Estate Platform -->
+                    <div class="project-card glass-card scroll-reveal delay-1">
+                        <div class="project-img-container">
+                            <img src="img/realestate.png" alt="Real Estate Platform"
+                                onerror="this.src='img/backimg.jpg'">
+                            <span class="project-category">Full Stack</span>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-card-title">Real Estate Management System</h3>
+                            <div class="project-tech-stack">
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                                <span>MongoDB</span>
+                                <span>EJS Templates</span>
+                            </div>
+                            <p class="project-card-description">
+                                Multi-role property management platform supporting Buyer, Seller, Agent, Office Staff,
+                                and Admin roles. Utilized session-based authentication, structured complex Mongoose
+                                schemas, and handled property photo uploads securely.
+                            </p>
+                            <div class="project-action-links">
+                                <a href="https://github.com/tusharagrahari214/Real-Estate-Project.git" target="_blank"
+                                    rel="noopener noreferrer" class="btn-card-action">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                                <a href="https://real-estate-project-gn9t.onrender.com" target="_blank"
+                                    rel="noopener noreferrer" class="btn-card-action primary">
+                                    <i class="fas fa-eye"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 5: Logistics Management System -->
+                    <div class="project-card glass-card scroll-reveal">
+                        <div class="project-img-container">
+                            <img src="img/backimg.jpg" alt="Logistics Management System">
+                            <span class="project-category">Full Stack</span>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-card-title">Rapid-Dispatch-Express</h3>
+                            <div class="project-tech-stack">
+                                <span>Node.js</span>
+                                <span>Express.js</span>
+                                <span>MongoDB</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <p class="project-card-description">
+                                Full stack logistics platform streamlining transport charging calculations, vehicle
+                                loading logs, and consignment tracking. Integrated secure JWT credentials and role-based
+                                access control filters. Developed in a 3-member agile team.
+                            </p>
+                            <div class="project-action-links">
+                                <a href="https://github.com/tusharagrahari214/Rapid-Dispatch-Express.git"
+                                    target="_blank" rel="noopener noreferrer" class="btn-card-action">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                                <a href="#" class="btn-card-action disabled">
+                                    <i class="fas fa-eye"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 6: Personal Portfolio Website -->
+                    <div class="project-card glass-card scroll-reveal">
+                        <div class="project-img-container">
+                            <img src="img/myport.png" alt="Personal Portfolio Website">
+                            <span class="project-category">Full Stack</span>
+                        </div>
+                        <div class="project-body">
+                            <h3 class="project-card-title">Personal Portfolio Website</h3>
+                            <div class="project-tech-stack">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                                <span>EmailJS</span>
+                            </div>
+                            <p class="project-card-description">
+                                Designed and developed a responsive personal portfolio website to showcase my projects,
+                                technical skills, and professional profile. Implemented a dynamic contact form using
+                                EmailJS, integrated social media links, and created a modern glassmorphism-inspired user
+                                interface with smooth animations and mobile-friendly design.
+                            </p>
+                            <div class="project-action-links">
+                                <a href="https://github.com/tusharagrahari214/Tushar-Portfolio.git" target="_blank"
+                                    rel="noopener noreferrer" class="btn-card-action">
+                                    <i class="fab fa-github"></i> GitHub
+                                </a>
+                                <a href="https://tushar214-portfolio.netlify.app/" target="_blank"
+                                    rel="noopener noreferrer" class="btn-card-action primary">
+                                    <i class="fas fa-eye"></i> Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="container">
+                <div class="section-header text-center scroll-reveal">
+                    <h2 class="section-title">Job Simulations</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="timeline-container">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item scroll-reveal">
+                        <div class="timeline-marker">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <span class="timeline-date">May 2026</span>
+                                <h3>Data Analytics Job Simulation</h3>
+                                <h4 class="company">Deloitte Australia (via Forage)</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                    Completed an intensive simulation mirroring Deloitte's analytics workloads. Acted as
+                                    a consulting analyst conducting dashboard analysis, business root-cause analysis,
+                                    and data interpretation.
+                                </p>
+                                <ul>
+                                    <li>Analyzed complex datasets to discover operational and customer anomalies.</li>
+                                    <li>Structured analytical findings into client-facing consulting presentation decks.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item scroll-reveal delay-1">
+                        <div class="timeline-marker">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="timeline-content glass-card">
+                            <div class="timeline-header">
+                                <span class="timeline-date">June 2025</span>
+                                <h3>Data Analytics Job Simulation</h3>
+                                <h4 class="company">Quantium (via Forage)</h4>
+                            </div>
+                            <div class="timeline-body">
+                                <p>
+                                    Acquired hands-on exposure to Quantium's commercial retail data analytics
+                                    methodologies.
+                                </p>
+                                <ul>
+                                    <li>Analyzed transactional records to extract behavioral patterns and store
+                                        benchmarks.</li>
+                                    <li>Conducted uplift testing on trials to measure performance improvements.</li>
+                                    <li>Formulated actionable commercial insights to drive sales strategies.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="certifications-section">
+            <div class="container">
+                <div class="section-header text-center scroll-reveal">
+                    <h2 class="section-title">Certifications</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="certifications-grid">
+                    <!-- Cert 1 -->
+                    <div class="cert-card glass-card scroll-reveal">
+                        <div class="cert-icon">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <div class="cert-details">
+                            <h3>SQL and Relational Databases 101</h3>
+                            <p class="issuer">IBM (via Cognitive Class)</p>
+                            <p class="cert-desc">Fundamentals of database management systems, relational concepts, and
+                                advanced SQL querying.</p>
+                        </div>
+                    </div>
+
+                    <!-- Cert 2 -->
+                    <div class="cert-card glass-card scroll-reveal delay-1">
+                        <div class="cert-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="cert-details">
+                            <h3>Deloitte Australia Data Analytics</h3>
+                            <p class="issuer">Forage Job Simulation</p>
+                            <p class="cert-desc">Competency in requirements analysis, dashboard implementation, and
+                                executive data reporting.</p>
+                        </div>
+                    </div>
+
+                    <!-- Cert 3 -->
+                    <div class="cert-card glass-card scroll-reveal delay-2">
+                        <div class="cert-icon">
+                            <i class="fas fa-chart-pie"></i>
+                        </div>
+                        <div class="cert-details">
+                            <h3>Quantium Data Analytics</h3>
+                            <p class="issuer">Forage Job Simulation</p>
+                            <p class="cert-desc">Focusing on cohort analytics, supermarket uplift tests, and translating
+                                metrics into retail store optimizations.</p>
+                        </div>
+                    </div>
+
+                    <!-- Cert 4 -->
+                    <div class="cert-card glass-card scroll-reveal">
+                        <div class="cert-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="cert-details">
+                            <h3>Introduction to Cyber Security</h3>
+                            <p class="issuer">Infosys Springboard</p>
+                            <p class="cert-desc">Foundational knowledge in network security, threat vectors, data
+                                encryption, and safe development practices.</p>
+                        </div>
+                    </div>
+
+                    <!-- Cert 5 -->
+                    <div class="cert-card glass-card scroll-reveal delay-1">
+                        <div class="cert-icon">
+                            <i class="fab fa-free-code-camp"></i>
+                        </div>
+                        <div class="cert-details">
+                            <h3>Responsive Web Design</h3>
+                            <p class="issuer">freeCodeCamp</p>
+                            <p class="cert-desc">Developer certification covering HTML5, CSS3, Flexbox, CSS Grid, and
+                                mobile-first responsive systems.</p>
+                        </div>
+                    </div>
+
+                    <!-- Cert 6 -->
+                    <div class="cert-card glass-card scroll-reveal delay-2">
+                        <div class="cert-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="cert-details">
+                            <h3>C++ Programming</h3>
+                            <p class="issuer">Infosys Springboard</p>
+                            <p class="cert-desc">Object-oriented architecture, data structures, pointer mechanics, and
+                                algorithmic problem-solving.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Publications Section -->
+        <section id="publications" class="publications-section">
+            <div class="container">
+                <div class="section-header text-center scroll-reveal">
+                    <h2 class="section-title">Research Publications</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="publication-content-box glass-card scroll-reveal">
+                    <div class="pub-badge"><i class="fas fa-feather-alt"></i> Co-Author & Presenter</div>
+                    <h3 class="pub-title">AgriCrop Health Monitoring and Recommendation of Crop Based on Soil and
+                        Weather Parameter</h3>
+
+                    <div class="pub-meta">
+                        <span class="pub-meta-item"><i class="fas fa-users"></i> Tushar, et al.</span>
+                        <span class="pub-meta-item"><i class="fas fa-university"></i> Conference: ICCSC 2026</span>
+                        <span class="pub-meta-item"><i class="fas fa-print"></i> Publisher: IEEE Xplore</span>
+                    </div>
+
+                    <p class="pub-abstract">
+                        <strong>Abstract:</strong> Designed and deployed an intelligent decision-support system
+                        analyzing nitrogen (N), phosphorus (P), potassium (K), pH, temperature, humidity, and rainfall
+                        factors to match optimal crops to agricultural land. Applied classification algorithms (XGBoost,
+                        Random Forests) achieving robust classification accuracy over 15 distinct crop types. Presented
+                        findings at the international conference ICCSC 2026.
+                    </p>
+
+                    <div class="pub-identifiers">
+                        <p class="doi-info"><strong>DOI:</strong> <code>10.1109/ICCSC60778.2026.11468657</code></p>
+                    </div>
+
+                    <div class="pub-actions">
+                        <a href="https://ieeexplore.ieee.org/document/11468657" target="_blank"
+                            rel="noopener noreferrer" class="btn btn-primary">
+                            <i class="fas fa-external-link-alt"></i> View Paper on IEEE Xplore
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="achievements-section">
+            <div class="container">
+                <div class="section-header text-center scroll-reveal">
+                    <h2 class="section-title">Key Achievements</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="achievements-grid">
+                    <!-- Ach 1 -->
+                    <div class="achievement-card glass-card scroll-reveal">
+                        <div class="ach-icon-box">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <h3>Best Paper Award</h3>
+                        <p>Awarded co-author of the <strong>Best Paper</strong> at the ICCSC 2026 IEEE-sponsored
+                            international conference for agricultural analytics.</p>
+                    </div>
+
+                    <!-- Ach 2 -->
+                    <div class="achievement-card glass-card scroll-reveal delay-1">
+                        <div class="ach-icon-box">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>IEEE Xplore Publication</h3>
+                        <p>Successfully indexed academic research in the prestigious <strong>IEEE Xplore</strong>
+                            digital library, demonstrating data research capabilities.</p>
+                    </div>
+
+                    <!-- Ach 3 -->
+                    <div class="achievement-card glass-card scroll-reveal delay-2">
+                        <div class="ach-icon-box">
+                            <i class="fas fa-microphone-alt"></i>
+                        </div>
+                        <h3>Conference Presentation</h3>
+                        <p>Presented research findings live to a panel of <strong>50+ industry professionals and
+                                academics</strong> at the ICCSC 2026 conference.</p>
+                    </div>
+
+                    <!-- Ach 4 -->
+                    <div class="achievement-card glass-card scroll-reveal">
+                        <div class="ach-icon-box">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>100+ Analytical Solved</h3>
+                        <p>Solved over <strong>100+ relational database and SQL queries</strong> on competitive coding
+                            sites LeetCode and HackerRank.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="container">
+                <div class="section-header text-center scroll-reveal">
+                    <h2 class="section-title">Let's Connect</h2>
+                    <div class="section-line"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <!-- Info Panel -->
+                    <div class="contact-info-panel glass-card scroll-reveal">
+                        <h3>Contact Information</h3>
+                        <p class="contact-intro"> recruiters and peers can contact me directly. Let's discuss potential
+                            positions or analytics collaborations!</p>
+
+                        <div class="contact-list">
+                            <div class="contact-item">
+                                <div class="icon-circle"><i class="fas fa-envelope"></i></div>
+                                <div class="details">
+                                    <span>Email Me</span>
+                                    <div class="email-wrapper">
+                                        <a href="mailto:tusharagrahari10@gmail.com"
+                                            id="email-address">tusharagrahari10@gmail.com</a>
+                                        <button id="copy-email-btn" class="copy-btn" title="Copy email to clipboard"
+                                            aria-label="Copy email to clipboard">
+                                            <i class="far fa-copy"></i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="icon-circle"><i class="fas fa-phone-alt"></i></div>
+                                <div class="details">
+                                    <span>Call Me</span>
+                                    <a href="tel:+919794232900">+91 9794232900</a>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="icon-circle"><i class="fas fa-map-marker-alt"></i></div>
+                                <div class="details">
+                                    <span>Location</span>
+                                    <a href="https://maps.google.com/?q=Noida,+Uttar+Pradesh,+India" target="_blank"
+                                        rel="noopener noreferrer">Noida, India • Open to Relocation</a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="social-circles-wrapper">
+                            <a href="https://github.com/tusharagrahari214" target="_blank" rel="noopener noreferrer"
+                                class="social-circle" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/tushar-agrahari214" target="_blank"
+                                rel="noopener noreferrer" class="social-circle" aria-label="LinkedIn"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                            <a href="https://x.com/TUSHARAGRAHARI1" target="_blank" rel="noopener noreferrer"
+                                class="social-circle" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Form Panel -->
+                    <div class="contact-form-panel glass-card scroll-reveal delay-1">
+                        <h3>Send a Message</h3>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="form_name">Name</label>
+                                    <input type="text" id="form_name" placeholder="John Doe" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="form_email">Email</label>
+                                    <input type="email" id="form_email" placeholder="john@example.com" required>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="form_subject">Subject</label>
+                                <input type="text" id="form_subject" placeholder="Job Opportunity" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="form_message">Message</label>
+                                <textarea id="form_message" placeholder="Hi Tushar, we reviewed your profile..."
+                                    rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary glass-btn btn-block">
+                                <i class="fas fa-paper-plane"></i> Send Message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container text-center">
+            <div class="footer-logo">Tushar</div>
+            <p class="footer-tagline">Aspiring Data Analyst | Python | SQL | Power BI | Machine Learning</p>
+            <div class="footer-links-row">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#experience">Experience</a>
+                <a href="#certifications">Certifications</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-divider"></div>
+            <p class="copyright-text">Built with HTML, CSS and JavaScript</p>
+            <p class="copyright-text">&copy; 2025 Tushar Agrahari</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top-btn" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Script Links -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
